@@ -1,0 +1,14 @@
+
+<% @pics.each do |pic| %>
+<div class="smurfy span3">
+	<!--<%= @pics.inspect %> -->
+	<h3><b>Title:</b> <%= pic.title %> </h3>
+	<br/>
+	<b>Subtitle:</b> <%= pic.subtitle %>
+	<br/>	
+	<b>Message:</b> <%= pic.message %>
+
+</div>
+
+<% end%>
+<!-- called a block-->
