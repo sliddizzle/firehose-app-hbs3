@@ -1,11 +1,12 @@
-<div class="smurfy">
+<div class="smurfy span5 offset4 text-center">
 	
+	<h1 class="custom-h1"> Tell us what you think! </h1>
 	<%= simple_form_for @pic do |f|%>
-		<%= f.input :title %>	
-		<%= f.input :subtitle %>	
-		<%= f.input :message %>	
+		<%= f.input :title, label:'Your name', placeholder: 'e.g, John Smith' %>	
+		<%= f.input :subtitle, label:'Your email address', placeholder: 'e.g, johnsmith@gmail.com' %>	
+		<%= f.input :message, label:'Tell us what you think of the app', placeholder: 'e.g, Love it, can\'t wait for more updates!' %>	
 
-		<%= f.submit "Submit" %>
+		<%= f.submit "Submit", :class => 'btn btn-warning btn-larhe' %>
 	<% end %>
 
 </div>
