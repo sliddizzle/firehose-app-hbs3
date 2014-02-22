@@ -10,6 +10,7 @@
 .img_padding {
 	padding: 15px 15px 15px 15px
 }
+
 body {
 	   background: url('new_york.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -27,15 +28,6 @@ body {
 	line-height: 32px;
 }
 
-.custom-h3 {
-	color: white;
-	font-family: 'Capriola',Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
-	font-weight: 30;
-	font-size: 14px;
-	line-height: 18px;
-}
-
-
 .custom-h2 {
 	color: white;
 	font-family: 'Capriola',Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
@@ -43,7 +35,11 @@ body {
 	font-size: 30px;
 }
 
-
-h2 {
+.custom-h3 {
 	color: white;
+	font-family: 'Capriola',Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
+	font-weight: 10;
+	font-size: 14px;
+	line-height: 18px;
 }
+
