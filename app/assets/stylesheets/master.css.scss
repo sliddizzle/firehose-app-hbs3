@@ -9,9 +9,13 @@
 	color: white;
 }
 
-.img_padding {
-	padding: 15px 15px 15px 15px
+.front_image {
+	box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.50);
+	background-color: rgba(36,32,33,0.50);
+	padding: 5px 5px 5px 5px;
+	color: white;
 }
+
 
 body {
 	   background: url('new_york.jpg') no-repeat center center fixed; 
@@ -52,10 +56,12 @@ body {
 	line-height: 18px;
 }
 
+.headshot img {
+	max-width:  auto;
+	max-height: 120px;
 
+}
 
-.img_padding img {
-	max-width: 100px;
-	max-height:100px;
-	
+.img_padding {
+	padding: 15px 15px 15px 15px
 }
