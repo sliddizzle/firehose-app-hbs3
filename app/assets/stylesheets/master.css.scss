@@ -3,6 +3,8 @@
 .smurfy {
 	box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.50);
 	background-color: rgba(36,32,33,0.50);
+	margin-top: 20px;
+	margin-left: 20px;
 	padding: 5px 5px 5px 5px;
 	color: white;
 }
@@ -17,7 +19,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
 
 .custom-h1 {
@@ -38,8 +39,23 @@ body {
 .custom-h3 {
 	color: white;
 	font-family: 'Capriola',Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
-	font-weight: 10;
+	font-weight: 8;
+	font-size: 20px;
+	line-height: 22px;
+}
+
+.custom-h4 {
+	color: white;
+	font-family: 'Capriola',Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
+	font-weight: 6;
 	font-size: 14px;
 	line-height: 18px;
 }
 
+
+
+.img_padding img {
+	max-width: 100px;
+	max-height:100px;
+	
+}
